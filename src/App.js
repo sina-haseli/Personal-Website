@@ -9,8 +9,8 @@ class App extends Component {
           <header>
             <h1>Sina haseli</h1>
             <div className="header__description">
-              " developer & indie maker. finding solutions for problems
-              👨🏻&zwj;💻🐺🥗💪🇦🇹 "
+              " front-end developer & gamer & GYM lover. finding solutions for
+              problems 👨🏻&zwj;💻🐺🥗💪🇦🇹 "
             </div>
             <div className="header__social">
               <ul>
@@ -65,11 +65,45 @@ class App extends Component {
                       </div>
                     </div>
                   </div>
-                  <div className="card__col col-12 col-lg-4">asd</div>
-                  <div className="card__col col-12 col-lg-4">asd</div>
-                  <div className="card__col col-12 col-lg-4">asd</div>
-                  <div className="card__col col-12 col-lg-8">asd</div>
-                  <div className="card__col col-12 col-lg-4">asd</div>
+                  <div className="card__col col-12 col-lg-4">
+                    <div className="card card__blue">
+                      <div className="card__upper">
+                        <div className="card__title">Learn nodejs & Go</div>
+                      </div>
+                      <div className="card__lower">
+                        <span className="card__progress--status">0/100%</span>
+                        <span className="card__progress--bar">
+                          <span className="card__progress-bar-inner" />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="card__col col-12 col-lg-4">
+                    <div className="card card__workout">
+                      <div className="card__upper">
+                        <div className="card__title">Complete 100 workouts</div>
+                      </div>
+                      <div className="card__lower">
+                        <span className="card__progress--status">5/100</span>
+                        <span className="card__progress--bar">
+                          <span className="card__progress-bar-inner" />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="card__col col-12 col-lg-4">
+                    <div className="card card__lose">
+                      <div className="card__upper">
+                        <div className="card__title">Lose 5 kgs</div>
+                      </div>
+                      <div className="card__lower">
+                        <span className="card__progress--status">0/5</span>
+                        <span className="card__progress--bar">
+                          <span className="card__progress-bar-inner" />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
