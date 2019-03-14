@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import "./App.css";
 
 class App extends Component {
@@ -104,32 +104,32 @@ class App extends Component {
                       </div>
                     </div>
                   </div>
-                    <div className="card__col col-12 col-lg-4">
-                        <div className="card card__sass">
-                            <div className="card__upper">
-                                <div className="card__title">Learn Sass</div>
-                            </div>
-                            <div className="card__lower">
-                                <span className="card__progress--status">50/100</span>
-                                <span className="card__progress--bar">
+                  <div className="card__col col-12 col-lg-4">
+                    <div className="card card__sass">
+                      <div className="card__upper">
+                        <div className="card__title">Learn Sass</div>
+                      </div>
+                      <div className="card__lower">
+                        <span className="card__progress--status">50/100</span>
+                        <span className="card__progress--bar">
                           <span className="card__progress-bar-inner" />
                         </span>
-                            </div>
-                        </div>
+                      </div>
                     </div>
-                    <div className="card__col col-12 col-lg-8">
-                        <div className="card card__js">
-                            <div className="card__upper">
-                                <div className="card__title">Learn Javascript</div>
-                            </div>
-                            <div className="card__lower">
-                                <span className="card__progress--status">55/100</span>
-                                <span className="card__progress--bar">
+                  </div>
+                  <div className="card__col col-12 col-lg-8">
+                    <div className="card card__js">
+                      <div className="card__upper">
+                        <div className="card__title">Learn Javascript</div>
+                      </div>
+                      <div className="card__lower">
+                        <span className="card__progress--status">55/100</span>
+                        <span className="card__progress--bar">
                           <span className="card__progress-bar-inner" />
                         </span>
-                            </div>
-                        </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
               </div>
             </div>
