@@ -1,0 +1,206 @@
+
+header{
+    text-align: center;
+    margin:  7.5rem 0;
+}
+
+h1{
+    font-size: 253%;
+    color: #111111;
+}
+.header__description{
+    font-size: 125%;
+    font-weight: 600;
+    color: #646464;
+    margin-bottom: 1%;
+    margin-top: 1%;
+
+}
+.header__social>ul{
+    padding: 0;
+    position: relative;
+    margin-top: 2%;
+}
+
+.header__social li{
+    display: inline-block;
+    font-size: 200%;
+    list-style: none;
+    position: relative;
+    left: 2%;
+    margin-right: 3%;
+}
+
+h2{
+    text-align: center;
+    font-size: 157%;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.card__container{
+    margin-bottom: 51%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card__col{
+    margin-bottom: 3%;
+}
+
+.card{
+    border-radius: 1.25rem;
+    padding: 3.125rem 2.5rem;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    position: relative;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5%;
+}
+
+.card--red{
+    background:linear-gradient(45deg,#a91e4c,#ea2253);
+}
+
+.card__upper{
+    margin-top: 0;
+    margin-bottom: 3.75rem;
+}
+
+.card__title{
+    font-size: 2.25rem;
+    line-height: 2.625rem;
+    margin-bottom: .9375rem;
+}
+
+.card__lower{
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.card__progress--status{
+    display: block;
+    font-size: 1.375rem;
+    margin-bottom: .9375rem;
+}
+
+.card__progress--bar{
+    border: 2px solid hsla(0,0%,100%,.6);
+    border-radius: 3.125rem;
+    width: 100%;
+    height: 1.25rem;
+    display: block;
+    padding: .1875rem;
+}
+
+.card__progress-bar-inner{
+    background-color: hsla(0,0%,100%,.6);
+    display: block;
+    border-radius: 1.25rem;
+    height: 100%;
+    width: 5%;
+}
+
+.card__image{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3) ), url("https://arminulrich.live/images/books.jpg");
+    background-size: cover;
+    background-position: 50%;
+    background-repeat:no-repeat; ;
+}
+
+.card__image .card__progress-bar-inner{
+    background-color: hsla(0,0%,100%,.6);
+    display: block;
+    border-radius: 1.25rem;
+    height: 100%;
+    width: 10%;
+}
+
+.card__blue{
+    background: linear-gradient(45deg,#133a75,#347dff);
+}
+.card__blue .card__progress-bar-inner{
+    background-color: hsla(0,0%,100%,.6);
+    display: block;
+    border-radius: 1.25rem;
+    height: 100%;
+    width: 0%;
+}
+
+.card__workout{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://arminulrich.live/images/workout-2.jpg");
+    background-size: cover;
+    background-position:50% ;
+    background-repeat: no-repeat;
+}
+
+.card__workout .card__progress-bar-inner{
+    background-color: hsla(0,0%,100%,.6);
+    display: block;
+    border-radius: 1.25rem;
+    height: 100%;
+    width: 15%;
+}
+
+.card__lose{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://arminulrich.live/images/weightloss.jpg");
+    background-size: cover;
+    background-position:50% ;
+    background-repeat: no-repeat;
+}
+
+.card__lose .card__progress-bar-inner{
+    background-color: hsla(0,0%,100%,.6);
+    display: block;
+    border-radius: 1.25rem;
+    height: 100%;
+    width: 0%;
+}
+
+.card__sass{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("./Img/Sass_Logo_Color.svg");
+    background-size: cover;
+    background-position:50% ;
+    background-repeat: no-repeat;
+}
+
+.card__sass .card__progress-bar-inner{
+    background-color: hsla(0,0%,100%,.6);
+    display: block;
+    border-radius: 1.25rem;
+    height: 100%;
+    width: 50%;
+}
+
+.card__js{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("./Img/js.png");
+    background-size: cover;
+    background-position:50% ;
+    background-repeat: no-repeat;
+}
+
+.card__js .card__progress-bar-inner{
+    background-color: hsla(0,0%,100%,.6);
+    display: block;
+    border-radius: 1.25rem;
+    height: 100%;
+    width: 55%;
+}
