@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
+import anime from "../node_modules/animejs/lib/anime.es";
+import Anime from "react-anime";
 
 class App extends Component {
   render() {
@@ -129,6 +131,22 @@ class App extends Component {
                         </span>
                       </div>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2>Skills</h2>
+            <div className="container">
+              <div className="row">
+                <div className="col-12">
+                  <div className="skillbar skillbar__html clearfix  ">
+                    <div className="skillbar-title">
+                      <span>HTML5</span>
+                    </div>
+                    <Anime width="95%" easing="linear" duration={4000}>
+                      <div className="skillbar-bar html"> </div>
+                    </Anime>
+                    <div className="skill-bar-percent Count">95</div>
                   </div>
                 </div>
               </div>
