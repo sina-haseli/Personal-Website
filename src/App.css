@@ -38,7 +38,9 @@ h2{
     font-weight: 600;
     margin-bottom: 3%;
 }
-
+.cont2{
+    margin-bottom: 20%;
+}
 .container{
     width: 100%;
     padding-right: 15px;
@@ -210,7 +212,18 @@ h2{
 .html{
     background: #e67e22!important;
 }
-
+.css{
+    background: #6adcfa!important;
+}
+.bootstrap{
+    background: #563B7B!important;
+}
+.react{
+    background: #599FB8!important;
+}
+.redux{
+    background: #7646BB!important;
+}
 span{
     color: white;
 }
@@ -249,7 +262,7 @@ span{
     font-weight:bold;
     font-size:13px;
     color:#ffffff;
-    background: #e67e22!important;
+    background: #e67e22;
     -webkit-border-top-left-radius:3px;
     -webkit-border-bottom-left-radius:4px;
     -moz-border-radius-topleft:3px;
@@ -286,5 +299,5 @@ span{
     font-size:1rem;
     line-height:35px;
     color:#ffffff;
-    color:rgba(0, 0, 0, 0.4);
+    color:white;
 }

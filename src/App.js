@@ -136,10 +136,10 @@ class App extends Component {
               </div>
             </div>
             <h2>Skills</h2>
-            <div className="container">
+            <div className="container cont2">
               <div className="row">
                 <div className="col-12">
-                  <div className="skillbar skillbar__html clearfix  ">
+                  <div className="skillbar  clearfix  ">
                     <div className="skillbar-title">
                       <span>HTML5</span>
                     </div>
@@ -147,6 +147,50 @@ class App extends Component {
                       <div className="skillbar-bar html"> </div>
                     </Anime>
                     <div className="skill-bar-percent Count">95</div>
+                  </div>
+                </div>
+                <div className="col-12">
+                  <div className="skillbar  clearfix  ">
+                    <div className="skillbar-title css">
+                      <span>CSS</span>
+                    </div>
+                    <Anime width="90%" easing="linear" duration={4000}>
+                      <div className="skillbar-bar css"> </div>
+                    </Anime>
+                    <div className="skill-bar-percent Count">90</div>
+                  </div>
+                </div>
+                <div className="col-12">
+                  <div className="skillbar  clearfix  ">
+                    <div className="skillbar-title bootstrap">
+                      <span>Bootstrap</span>
+                    </div>
+                    <Anime width="97%" easing="linear" duration={4000}>
+                      <div className="skillbar-bar bootstrap"> </div>
+                    </Anime>
+                    <div className="skill-bar-percent Count">97</div>
+                  </div>
+                </div>
+                <div className="col-12">
+                  <div className="skillbar  clearfix  ">
+                    <div className="skillbar-title react">
+                      <span>React</span>
+                    </div>
+                    <Anime width="80%" easing="linear" duration={4000}>
+                      <div className="skillbar-bar react"> </div>
+                    </Anime>
+                    <div className="skill-bar-percent Count">80</div>
+                  </div>
+                </div>
+                <div className="col-12">
+                  <div className="skillbar  clearfix  ">
+                    <div className="skillbar-title redux">
+                      <span>Redux</span>
+                    </div>
+                    <Anime width="75%" easing="linear" duration={4000}>
+                      <div className="skillbar-bar redux"> </div>
+                    </Anime>
+                    <div className="skill-bar-percent Count">75</div>
                   </div>
                 </div>
               </div>
