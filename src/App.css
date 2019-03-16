@@ -272,7 +272,7 @@ span{
 }
 .skillbar-title span {
     display:block;
-    background:rgba(0, 0, 0, 0.1);
+    background: hsla(227, 100%, 97%, 0.34);
     padding:0 20px;
     height:35px;
     line-height:35px;
