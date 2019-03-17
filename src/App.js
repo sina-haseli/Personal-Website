@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import anime from "../node_modules/animejs/lib/anime.es";
+import CountUp from "react-countup";
 import Anime from "react-anime";
 
 class App extends Component {
@@ -146,7 +146,9 @@ class App extends Component {
                     <Anime width="95%" easing="linear" duration={4000}>
                       <div className="skillbar-bar html"> </div>
                     </Anime>
-                    <div className="skill-bar-percent Count">95</div>
+                    <div className="skill-bar-percent Count">
+                      <CountUp end={95} duration={5.5} />
+                    </div>
                   </div>
                 </div>
                 <div className="col-12">
@@ -157,7 +159,9 @@ class App extends Component {
                     <Anime width="90%" easing="linear" duration={4000}>
                       <div className="skillbar-bar css"> </div>
                     </Anime>
-                    <div className="skill-bar-percent Count">90</div>
+                    <div className="skill-bar-percent Count">
+                      <CountUp end={90} duration={5.5} />
+                    </div>
                   </div>
                 </div>
                 <div className="col-12">
@@ -168,7 +172,9 @@ class App extends Component {
                     <Anime width="97%" easing="linear" duration={4000}>
                       <div className="skillbar-bar bootstrap"> </div>
                     </Anime>
-                    <div className="skill-bar-percent Count">97</div>
+                    <div className="skill-bar-percent Count">
+                      <CountUp end={97} duration={5.5} />
+                    </div>
                   </div>
                 </div>
                 <div className="col-12">
@@ -179,7 +185,9 @@ class App extends Component {
                     <Anime width="80%" easing="linear" duration={4000}>
                       <div className="skillbar-bar react"> </div>
                     </Anime>
-                    <div className="skill-bar-percent Count">80</div>
+                    <div className="skill-bar-percent Count">
+                      <CountUp end={80} duration={5.5} />
+                    </div>
                   </div>
                 </div>
                 <div className="col-12">
@@ -190,7 +198,9 @@ class App extends Component {
                     <Anime width="75%" easing="linear" duration={4000}>
                       <div className="skillbar-bar redux"> </div>
                     </Anime>
-                    <div className="skill-bar-percent Count">75</div>
+                    <div className="skill-bar-percent Count">
+                      <CountUp end={75} duration={5.5} />
+                    </div>
                   </div>
                 </div>
               </div>
