@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import CountUp from "react-countup";
 import Anime from "react-anime";
-//still need to change something
+//still need to change something :D
 class App extends Component {
   render() {
     return (
