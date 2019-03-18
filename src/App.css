@@ -325,6 +325,10 @@ span{
 .fa-heart::after{
     content: " ";
 }
+.fa-heart:hover{
+    font-weight: 600;
+    color: red;
+}
 .info p{
     font-family: 'Work sans'!important;
     font-size: 1.2rem;
