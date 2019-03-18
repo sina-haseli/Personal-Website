@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import anime from "../node_modules/animejs/lib/anime.es";
 import CountUp from "react-countup";
 import Anime from "react-anime";
 
@@ -12,22 +13,25 @@ class App extends Component {
             <h1>Sina haseli</h1>
             <div className="header__description">
               " front-end developer & gamer & GYM lover. finding solutions for
-              problems 👨🏻&zwj;💻🐺🥗💪🇦🇹 "
+              problems 👨🏻 &zwj;
+              <i className="fas fa-laptop-code" />
+              <i className="fas fa-headset" />
+              <i className="fas fa-dumbbell" />"
             </div>
             <div className="header__social">
               <ul>
                 <li>
-                  <a href="#">
+                  <a href="https://twitter.com/Deomifucking1">
                     <i className="fab fa-twitter" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://github.com/sina-haseli">
                     <i className="fab fa-github" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://t.me/Deomi2">
                     <i className="fab fa-telegram" />
                   </a>
                 </li>
@@ -43,7 +47,7 @@ class App extends Component {
                     <div className="card card--red">
                       <div className="card__upper">
                         <div className="card__title">
-                          Do 365 Business Developer Tasks
+                          Do 100 Business Developer Tasks
                         </div>
                       </div>
                       <div className="card__lower">
@@ -205,7 +209,34 @@ class App extends Component {
                 </div>
               </div>
             </div>
+            <div className="container">
+              <div className="row">
+                <div className="col-md-8 offset-md-2">
+                  <div className="info">
+                    <i className="far fa-heart"> </i>
+                    <p>
+                      I am a junior front-end developer but i'm trying to do my
+                      best and be a seniro front-end develpoer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </main>
+          <footer>
+            <div className="container">
+              <div className="row">
+                <div className="col-md-8 offset-md-2">
+                  <div className="footer">
+                    <hr />
+                    <p>
+                      Make by <i className="far fa-heart love" />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
         </main>
       </div>
     );

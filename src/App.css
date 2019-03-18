@@ -1,4 +1,14 @@
-
+@font-face {
+    font-family: 'Work sans';
+    src: url('./assets/fonts/WorkSans-Medium.ttf');
+    font-weight: 500;
+}
+.header__description i{
+    padding: 0.55rem;
+}
+i::after{
+    content: ' ';
+}
 header{
     text-align: center;
     margin:  7.5rem 0;
@@ -300,4 +310,35 @@ span{
     line-height:35px;
     color:#ffffff;
     color:white;
+}
+
+.info{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 7.5rem;
+}
+.fa-heart{
+    font-size: 2.25rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+.fa-heart::after{
+    content: " ";
+}
+.info p{
+    font-family: 'Work sans'!important;
+    font-size: 1.2rem;
+}
+
+.footer {
+    text-align: center;
+}
+.love {
+    font-size: 1rem;
+    font-weight: 600;
+    color: red;
+}
+.footer p {
+    font-family: 'Work sans'!Important;
+    font-size: 1rem;
 }
