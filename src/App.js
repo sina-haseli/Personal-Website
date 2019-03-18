@@ -76,7 +76,7 @@ class App extends Component {
                         <div className="card__title">Learn nodejs & Go</div>
                       </div>
                       <div className="card__lower">
-                        <span className="card__progress--status">0/100%</span>
+                        <span className="card__progress--status">0/100</span>
                         <span className="card__progress--bar">
                           <span className="card__progress-bar-inner" />
                         </span>
