@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
-import anime from "../node_modules/animejs/lib/anime.es";
 import CountUp from "react-countup";
 import Anime from "react-anime";
-
+//still need to change something
 class App extends Component {
   render() {
     return (
@@ -216,7 +215,7 @@ class App extends Component {
                     <i className="far fa-heart"> </i>
                     <p>
                       I am a junior front-end developer but i'm trying to do my
-                      best and be a seniro front-end develpoer.
+                      best and be a senior front-end developer.
                     </p>
                   </div>
                 </div>
