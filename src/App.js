@@ -2,9 +2,12 @@ import React, { Component } from "react";
 import "./App.css";
 import CountUp from "react-countup";
 import Anime from "react-anime";
+import AOS from "aos";
+import "aos/dist/aos.css";
 //still need to change something :D
 class App extends Component {
   render() {
+    AOS.init({});
     return (
       <div id="app">
         <main className="py-4">
@@ -139,7 +142,7 @@ class App extends Component {
               </div>
             </div>
             <h2>Skills</h2>
-            <div className="container cont2">
+            <div className="container cont2" data-aos="fade-up">
               <div className="row">
                 <div className="col-12">
                   <div className="skillbar  clearfix  ">
