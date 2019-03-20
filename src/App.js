@@ -159,7 +159,7 @@ class App extends Component {
                 </div>
                 <div className="col-12">
                   <div className="skillbar  clearfix  ">
-                    <div className="skillbar-title css">
+                    <div className="skillbar-title _css">
                       <span>CSS</span>
                     </div>
                     <Anime width="90%" easing="linear" duration={4000}>
@@ -172,7 +172,7 @@ class App extends Component {
                 </div>
                 <div className="col-12">
                   <div className="skillbar  clearfix  ">
-                    <div className="skillbar-title bootstrap">
+                    <div className="skillbar-title _bootstrap">
                       <span>Bootstrap</span>
                     </div>
                     <Anime width="97%" easing="linear" duration={4000}>
@@ -185,7 +185,7 @@ class App extends Component {
                 </div>
                 <div className="col-12">
                   <div className="skillbar  clearfix  ">
-                    <div className="skillbar-title react">
+                    <div className="skillbar-title _react">
                       <span>React</span>
                     </div>
                     <Anime width="80%" easing="linear" duration={4000}>
@@ -198,7 +198,7 @@ class App extends Component {
                 </div>
                 <div className="col-12">
                   <div className="skillbar  clearfix  ">
-                    <div className="skillbar-title redux">
+                    <div className="skillbar-title _redux">
                       <span>Redux</span>
                     </div>
                     <Anime width="75%" easing="linear" duration={4000}>

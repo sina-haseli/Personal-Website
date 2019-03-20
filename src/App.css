@@ -219,19 +219,31 @@ h2{
 
 
 .html{
-    background: #e67e22!important;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%)!important;
 }
 .css{
-    background: #6adcfa!important;
+    background: linear-gradient(135deg, #5ee7df 0%, #b490ca 100%)!important;
+}
+._css{
+    background:#5ee7df!important;  ;
 }
 .bootstrap{
-    background: #563B7B!important;
+    background:linear-gradient(135deg, #9F4782 0%, #563B7B 100%)!important;
+}
+._bootstrap{
+    background: #9F4782!important;
 }
 .react{
-    background: #599FB8!important;
+    background:linear-gradient(135deg, #44CEBA 0%, #599FB8 100%)!important;
+}
+._react{
+    background:#44CEBA!important; ;
 }
 .redux{
-    background: #7646BB!important;
+    background:linear-gradient(135deg, #D141A4 0%, #7646BB 100%)!important;
+}
+._redux{
+    background:#D141A4!important; ;
 }
 span{
     color: white;
@@ -271,7 +283,7 @@ span{
     font-weight:bold;
     font-size:13px;
     color:#ffffff;
-    background: #e67e22;
+    background: #f6d365;
     -webkit-border-top-left-radius:3px;
     -webkit-border-bottom-left-radius:4px;
     -moz-border-radius-topleft:3px;
@@ -281,7 +293,7 @@ span{
 }
 .skillbar-title span {
     display:block;
-    background: hsla(227, 100%, 97%, 0.34);
+    background: hsla(227, 100%, 97%, 0.24);
     padding:0 20px;
     height:35px;
     line-height:35px;
