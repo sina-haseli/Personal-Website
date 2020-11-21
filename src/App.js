@@ -41,7 +41,7 @@ class App extends Component {
             </div>
           </header>
           <main>
-            <h2>PERSONAL GOALS FOR 2019</h2>
+            <h2>PERSONAL GOALS FOR 2020</h2>
             <div className="container">
               <div className="card__container">
                 <div className="row">
